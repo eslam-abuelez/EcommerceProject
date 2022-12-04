@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions
         (
-                features = "src\\test\\java\\features",
+                features = "src/test/java/features",
                 glue = "features.stepDefs",
                 tags = "@smoke",
                 plugin = {"pretty",
