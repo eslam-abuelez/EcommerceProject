@@ -1,0 +1,24 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Scenario: Scenario: guest user could register with valid data successfully" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+    <option name="CUCUMBER_CORE_VERSION" value="5" />
+    <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F01_Register.feature" />
+    <option name="GLUE" value="org.example.stepDefs" />
+    <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <module name="EcommerceProject" />
+    <option name="NAME_FILTER" value="^Scenario\: guest user could register with valid data successfully$" />
+    <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Scenario\: guest user could register with valid data successfully$&quot;" />
+    <shortenClasspath name="NONE" />
+    <option name="SUGGESTED_NAME" value="Scenario: Scenario: guest user could register with valid data successfully" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Ecommerce- Project/Ecommerce Project" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="io.cucumber.core.cli.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+      <option name="MakeProject" enabled="true" />
+    </method>
+  </configuration>
+</component>
