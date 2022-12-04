@@ -1,12 +1,12 @@
-package org.example.testRunner;
+package TestRunner;
 
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions
         (
-                features = "src/test/java/org/example/features",
-                glue = "org.example.stepDefs",
+                features = "src\\test\\java\\features",
+                glue = "features.stepDefs",
                 tags = "@smoke",
                 plugin = {"pretty",
                         "html:target/cucumber.html",

@@ -1,20 +1,20 @@
-package org.example.stepDefs;
+package stepDefs;
 
 import Data.data.JsonDataReader;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.example.pages.P01_register;
-import org.example.pages.P02_login;
-import org.example.pages.P03_homePage;
+import pages.P01_register;
+import pages.P02_login;
+import pages.P03_homePage;
 import org.json.simple.parser.ParseException;
 import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 
 import java.io.IOException;
 
-import static org.example.stepDefs.Hooks.driver;
+import static stepDefs.Hooks.driver;
 
 public class D02_loginStepDef {
     P02_login p02login = new P02_login(driver);

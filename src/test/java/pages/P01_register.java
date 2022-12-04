@@ -1,11 +1,10 @@
-package org.example.pages;
+package pages;
 
-import org.example.stepDefs.Hooks;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
-import static org.example.stepDefs.Hooks.driver;
+import static stepDefs.Hooks.driver;
 
 public class P01_register {
 
